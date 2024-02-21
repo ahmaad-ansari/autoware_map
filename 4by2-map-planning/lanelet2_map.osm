@@ -61,28 +61,28 @@
     <tag k="local_y" v="0.1642"/>
     <tag k="ele" v="0"/>
   </node>
-  <node id="83" lat="" lon="">
+  <node id="90" lat="" lon="">
     <tag k="mgrs_code" v="99XXX0-10-1"/>
-    <tag k="local_x" v="-0.9242"/>
-    <tag k="local_y" v="-0.446"/>
+    <tag k="local_x" v="-1.0005"/>
+    <tag k="local_y" v="-0.5788"/>
     <tag k="ele" v="0"/>
   </node>
-  <node id="84" lat="" lon="">
+  <node id="91" lat="" lon="">
     <tag k="mgrs_code" v="99XXX0000-1"/>
-    <tag k="local_x" v="0.9825"/>
-    <tag k="local_y" v="-0.4592"/>
+    <tag k="local_x" v="1.0198"/>
+    <tag k="local_y" v="-0.5823"/>
     <tag k="ele" v="0"/>
   </node>
-  <node id="86" lat="" lon="">
+  <node id="93" lat="" lon="">
     <tag k="mgrs_code" v="99XXX0-10-1"/>
-    <tag k="local_x" v="-0.9221"/>
-    <tag k="local_y" v="-0.1412"/>
+    <tag k="local_x" v="-0.9998"/>
+    <tag k="local_y" v="-0.1724"/>
     <tag k="ele" v="0"/>
   </node>
-  <node id="87" lat="" lon="">
+  <node id="94" lat="" lon="">
     <tag k="mgrs_code" v="99XXX0000-1"/>
-    <tag k="local_x" v="0.9846"/>
-    <tag k="local_y" v="-0.1544"/>
+    <tag k="local_x" v="1.0205"/>
+    <tag k="local_y" v="-0.1759"/>
     <tag k="ele" v="0"/>
   </node>
   <way id="76">
@@ -106,15 +106,15 @@
     <tag k="subtype" v="solid"/>
     <tag k="width" v="0.4064"/>
   </way>
-  <way id="85">
-    <nd ref="83"/>
-    <nd ref="84"/>
+  <way id="92">
+    <nd ref="90"/>
+    <nd ref="91"/>
     <tag k="type" v="line_thin"/>
     <tag k="subtype" v="solid"/>
   </way>
-  <way id="88">
-    <nd ref="86"/>
-    <nd ref="87"/>
+  <way id="95">
+    <nd ref="93"/>
+    <nd ref="94"/>
     <tag k="type" v="line_thin"/>
     <tag k="subtype" v="solid"/>
   </way>
@@ -126,9 +126,9 @@
     <tag k="type" v="parking_lot"/>
     <tag k="area" v="yes"/>
   </way>
-  <relation id="89">
-    <member type="way" role="left" ref="88"/>
-    <member type="way" role="right" ref="85"/>
+  <relation id="96">
+    <member type="way" role="left" ref="95"/>
+    <member type="way" role="right" ref="92"/>
     <tag k="type" v="lanelet"/>
     <tag k="subtype" v="road"/>
     <tag k="speed_limit" v="10"/>
