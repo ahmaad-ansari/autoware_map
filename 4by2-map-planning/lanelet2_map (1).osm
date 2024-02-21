@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="VMB">
+  <MetaInfo format_version="1" map_version="2"/>
+  <node id="110" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0-1000"/>
+    <tag k="local_x" v="-1.0252"/>
+    <tag k="local_y" v="0.6036"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="111" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0-10-1"/>
+    <tag k="local_x" v="-0.9912"/>
+    <tag k="local_y" v="-0.6052"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="113" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0000-1"/>
+    <tag k="local_x" v="1.0585"/>
+    <tag k="local_y" v="-0.5985"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="114" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX000000"/>
+    <tag k="local_x" v="1.074"/>
+    <tag k="local_y" v="0.5931"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="116" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX000000"/>
+    <tag k="local_x" v="0.4548"/>
+    <tag k="local_y" v="0.1953"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="117" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0000-1"/>
+    <tag k="local_x" v="0.4585"/>
+    <tag k="local_y" v="-0.2056"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <way id="118">
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <tag k="type" v="parking_space"/>
+    <tag k="subtype" v="solid"/>
+    <tag k="width" v="0.3061"/>
+  </way>
+  <way id="115">
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <tag k="type" v="parking_lot"/>
+    <tag k="area" v="yes"/>
+  </way>
+</osm>
