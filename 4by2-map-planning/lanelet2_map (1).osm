@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="VMB">
+  <MetaInfo format_version="1" map_version="2"/>
+  <node id="59" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0-1000"/>
+    <tag k="local_x" v="-1.1253"/>
+    <tag k="local_y" v="0.5985"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="60" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0-10-1"/>
+    <tag k="local_x" v="-1.127"/>
+    <tag k="local_y" v="-0.606"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="71" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0000-1"/>
+    <tag k="local_x" v="1.1188"/>
+    <tag k="local_y" v="-0.6111"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="72" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX000000"/>
+    <tag k="local_x" v="1.1499"/>
+    <tag k="local_y" v="0.6259"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="74" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0-1000"/>
+    <tag k="local_x" v="-0.5751"/>
+    <tag k="local_y" v="0.5534"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="75" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0-1000"/>
+    <tag k="local_x" v="-0.5714"/>
+    <tag k="local_y" v="0.1488"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="77" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0-1000"/>
+    <tag k="local_x" v="-0.0241"/>
+    <tag k="local_y" v="0.5604"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="78" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0-1000"/>
+    <tag k="local_x" v="-0.0204"/>
+    <tag k="local_y" v="0.1558"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="80" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX000000"/>
+    <tag k="local_x" v="0.5645"/>
+    <tag k="local_y" v="0.5688"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="81" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX000000"/>
+    <tag k="local_x" v="0.5682"/>
+    <tag k="local_y" v="0.1642"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="83" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0-10-1"/>
+    <tag k="local_x" v="-0.9242"/>
+    <tag k="local_y" v="-0.446"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="84" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0000-1"/>
+    <tag k="local_x" v="0.9825"/>
+    <tag k="local_y" v="-0.4592"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="86" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0-10-1"/>
+    <tag k="local_x" v="-0.9221"/>
+    <tag k="local_y" v="-0.1412"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <node id="87" lat="" lon="">
+    <tag k="mgrs_code" v="99XXX0000-1"/>
+    <tag k="local_x" v="0.9846"/>
+    <tag k="local_y" v="-0.1544"/>
+    <tag k="ele" v="0"/>
+  </node>
+  <way id="76">
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <tag k="type" v="parking_space"/>
+    <tag k="subtype" v="solid"/>
+    <tag k="width" v="0.4064"/>
+  </way>
+  <way id="79">
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <tag k="type" v="parking_space"/>
+    <tag k="subtype" v="solid"/>
+    <tag k="width" v="0.4064"/>
+  </way>
+  <way id="82">
+    <nd ref="80"/>
+    <nd ref="81"/>
+    <tag k="type" v="parking_space"/>
+    <tag k="subtype" v="solid"/>
+    <tag k="width" v="0.4064"/>
+  </way>
+  <way id="85">
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <tag k="type" v="line_thin"/>
+    <tag k="subtype" v="solid"/>
+  </way>
+  <way id="88">
+    <nd ref="86"/>
+    <nd ref="87"/>
+    <tag k="type" v="line_thin"/>
+    <tag k="subtype" v="solid"/>
+  </way>
+  <way id="73">
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <tag k="type" v="parking_lot"/>
+    <tag k="area" v="yes"/>
+  </way>
+  <relation id="89">
+    <member type="way" role="left" ref="88"/>
+    <member type="way" role="right" ref="85"/>
+    <tag k="type" v="lanelet"/>
+    <tag k="subtype" v="road"/>
+    <tag k="speed_limit" v="10"/>
+    <tag k="location" v="urban"/>
+    <tag k="one_way" v="yes"/>
+  </relation>
+</osm>
